@@ -2,7 +2,7 @@
 
 #### Email: carmenjohnson512@gmail.com | LinkedIn: https://www.linkedin.com/in/carmenjohnson512/
 
-![Portfolio Gif](https://github.com/carmenjohnson512/react-portfolio/blob/master/React_portfolio_gif.gif)
+![Portfolio Gif](https://github.com/carmenjohnson512/react-portfolio/blob/master/react_portfolio_gif%20(1).gif)
 
 Hey y'all, I'm Carmen!
 

@@ -1,8 +1,8 @@
 {
-  "name": "retro-template",
-  "description": "Retro - One Page Modern Resume Template",
+  "name": "carmen-johnson-portfolio",
+  "description": "Professional Web Development Portfolio",
   "version": "1.0.0",
-  "author": "Syed Muaz Ali",
+  "author": "Carmen Johnson",
   "private": true,
   "dependencies": {
     "@fortawesome/free-regular-svg-icons": "^5.12.1",

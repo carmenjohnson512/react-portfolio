@@ -1,6 +1,6 @@
 ---
 id: 1
-image: './image.jpg'
-title: "Front-end Development"
-category: "React.js"
+image: './pod-elearning.png'
+title: "React | MySQL Project"
+category: "Frontend"
 ---

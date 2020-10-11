@@ -6,6 +6,7 @@ import AnimationContainer from 'components/animation-container'
 import BaffleText from 'components/baffle-text'
 import Tilt from 'react-tilt'
 import ThemeContext from '../../context'
+
 class Portfolio extends React.Component {
   constructor(props) {
     super(props)
@@ -112,6 +113,7 @@ class Portfolio extends React.Component {
               >
                 <AnimationContainer delay={200} animation="fadeIn" key={index}>
                   <img
+                    className='portfolio-item-image'
                     src={
                       value.content.frontmatter.image.childImageSharp.fluid.src
                     }
@@ -145,11 +147,12 @@ class Portfolio extends React.Component {
   }
 
   getItemCount(category) {
-    let total = 0
+    let total = 0;
     this.state.items.forEach(v => {
       if (v.content.frontmatter.category === category || !category) total++
     })
-    return total
+    return total;
+    
   }
 
   changeCategory(category) {
@@ -170,7 +173,7 @@ class Portfolio extends React.Component {
   categories() {
     const { items } = this.props
     let categories = []
-    for (var v of items) {
+    for (let v of items) {
       categories.push(v.content.frontmatter.category)
     }
     categories = [...new Set(categories)]

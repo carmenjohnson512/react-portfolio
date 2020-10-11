@@ -1,11 +1,11 @@
 var plugins = [{
-      plugin: require('gatsby-plugin-google-fonts/gatsby-ssr'),
+      plugin: require('/Users/carmen.johnson/UT-FSF-BOOTCAMP/react-portfolio/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":["Poppins:300,400,400,700,800,900"],"display":"swap"},
     },{
-      plugin: require('gatsby-plugin-offline/gatsby-ssr'),
+      plugin: require('/Users/carmen.johnson/UT-FSF-BOOTCAMP/react-portfolio/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/carmen.johnson/UT-FSF-BOOTCAMP/react-portfolio/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

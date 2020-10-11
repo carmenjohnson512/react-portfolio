@@ -1,6 +1,6 @@
 ---
 id: 3
-image: './image.jpg'
-title: "Angular Project"
-category: "Angular.js"
+image: './express-notetaker.png'
+title: "Express Project"
+category: "Backend"
 ---
